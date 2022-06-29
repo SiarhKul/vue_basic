@@ -67,8 +67,4 @@ export default {
 };
 </script>
 
-<style scoped>
-h2 {
-  color: darkred;
-}
-</style>
+<style></style>
