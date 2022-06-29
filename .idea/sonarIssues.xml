@@ -18,7 +18,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/AppBlock.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/AppButton.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/AppList.vue">
           <value>
             <set />
           </value>
