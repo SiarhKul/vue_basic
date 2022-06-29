@@ -16,6 +16,12 @@ export default {
       },
     },
   },
+
+  methods: {
+    logBtn() {
+      console.log("text from AppButton");
+    }
+  }
 };
 </script>
 
