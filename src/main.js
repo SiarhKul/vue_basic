@@ -5,8 +5,4 @@ import './theme.css';
 
 const app = createApp(App);
 
-app.component('async-component', defineAsyncComponent(() => {
-  return import('./AsyncComponent');
-}));
-
 app.mount('#app');
