@@ -93,12 +93,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/colorDirective.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/components/AppAlert.vue">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/components/AppBlock.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/focusDirective.js">
           <value>
             <set />
           </value>
