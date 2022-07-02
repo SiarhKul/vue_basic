@@ -1,25 +1,25 @@
 export default {
   install(app, options) {
-    console.log('1-----------', app);
-    console.log('2-----------', options);
 
     let current = 'ru';
 
-    const changeLanguages = (name)=>{
+    const changeLanguages = (name) => {
       console.log(name);
-      current=name;
-    }
+      current = name;
+    };
 
     app.config.globalProperties.$alert = (text) => {
       window.alert(text);
     };
 
     app.config.globalProperties.$i18n = (key) => {
-      return key.split('.').reduce((words, k) => {
-        return words[k] || '===unknown===';
+      const r = key.split('.').reduce((words, currentItem) => {
+        return words[currentItem] || '===unknown===';
       }, options[current]);
+      console.log(r);
+      return r;
     };
 
-    app.provide('changeI18n',changeLanguages)
+    app.provide('changeI18n', changeLanguages);
   },
 };
