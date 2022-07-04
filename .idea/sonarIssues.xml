@@ -83,6 +83,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/AppComments.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/AppCvBlock.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/AppForm.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/components/AppNickName.vue">
           <value>
             <set />

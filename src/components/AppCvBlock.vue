@@ -21,9 +21,8 @@
 
 <script>
 export default {
-  name: 'AppNickName',
+  name: 'AppCvBlock',
   props: ['cvBlock', 'cvBlockDescription'],
-
 };
 </script>
 
