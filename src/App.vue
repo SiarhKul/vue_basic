@@ -1,24 +1,15 @@
 <template>
   <div class='container column'>
     <app-form @onSubmitBlock='addBlockToList'></app-form>
-
-    <div class='card card-w70'>
-      <app-cv-block
-        v-for='(cvBlock,key) in cvBlocks'
-        :key='key'
-        :cvBlock='cvBlock.cvBlock'
-        :cvBlockDescription='cvBlock.cvBlockDescription'
-      >
-      </app-cv-block>
-
-      <h3 v-if='cvBlocks.length===0'>Добавьте первый блок, чтобы увидеть результат</h3>
-    </div>
+    <app-cv-blocks :cvBlocks='cvBlocks'></app-cv-blocks>
   </div>
+
   <div class='container'>
     <p>
       <button class='btn primary' @click='onLoadComments'>Загрузить комментарии</button>
     </p>
-    <div class='loader' v-if='commentsLoaded'></div>
+
+    <app-loader v-if='commentsLoaded'></app-loader>
     <app-comments :comments='comments' v-if='comments.length>0'></app-comments>
   </div>
 </template>
@@ -27,8 +18,10 @@
 
 <script>
 import AppForm from '@/components/AppForm';
-import AppCvBlock from '@/components/AppCvBlock';
+import AppCvBlock from '@/components/AppCvBlocks';
 import AppComments from '@/components/AppComments';
+import AppLoader from '@/components/AppLoader';
+import AppCvBlocks from '@/components/AppCvBlocks';
 
 export default {
   data() {
@@ -41,7 +34,6 @@ export default {
 
   methods: {
     addBlockToList(block) {
-      console.log('block----->>', block);
       this.cvBlocks.push(block);
     },
 
@@ -50,7 +42,6 @@ export default {
         this.commentsLoaded = true;
         const data = await fetch('https://jsonplaceholder.typicode.com/comments?_limit=42');
         this.comments = await data.json();
-        console.log('this.comments----->>', this.comments);
         this.commentsLoaded = false;
 
       } catch (e) {
@@ -62,7 +53,7 @@ export default {
   },
 
   components: {
-    AppCvBlock, AppForm, AppComments,
+    AppCvBlock, AppForm, AppComments, AppLoader, AppCvBlocks,
   },
 
 };
