@@ -21,12 +21,6 @@ export default {
   name: 'AppCvBlocks',
   props: ['cvBlocks'],
   components: { AppTitle, AppSubtitle, AppAvatar, AppText },
-
 };
-
-
 </script>
 
-<style scoped>
-
-</style>

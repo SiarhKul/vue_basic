@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{ $refs.value }}</p>
+    <p>{{ $attrs.value }}</p>
   </div>
 </template>
 

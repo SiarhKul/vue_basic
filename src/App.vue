@@ -14,8 +14,6 @@
   </div>
 </template>
 
-//---------------------------------------------------------JS
-
 <script>
 import AppForm from '@/components/AppForm';
 import AppCvBlock from '@/components/AppCvBlocks';
@@ -40,14 +38,14 @@ export default {
     async onLoadComments() {
       try {
         this.commentsLoaded = true;
+
         const data = await fetch('https://jsonplaceholder.typicode.com/comments?_limit=42');
         this.comments = await data.json();
+
         this.commentsLoaded = false;
 
       } catch (e) {
-        console.log(e);
         this.commentsLoaded = false;
-
       }
     },
   },
@@ -58,16 +56,4 @@ export default {
 
 };
 </script>
-//---------------------------------------------------------CSS
-<style>
-.avatar {
-  display: flex;
-  justify-content: center;
-}
 
-.avatar img {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-}
-</style>

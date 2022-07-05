@@ -16,7 +16,7 @@
       <small v-if='error'> Колличестов символов должно быть больше 3</small>
     </div>
 
-    <button class='btn primary'>Добавить</button>
+    <button class='btn primary' :disabled='valueBlock.length===0'>Добавить</button>
   </form>
 </template>
 
@@ -62,6 +62,3 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
