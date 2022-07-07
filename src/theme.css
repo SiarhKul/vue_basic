@@ -94,10 +94,10 @@ h3 {
 
 .btn:disabled {
     cursor: not-allowed;
-    opacity: 1 !important;
-    background: #eee !important;
-    border-color: #ddd !important;
-    color: #999 !important;
+    opacity: 1!important;
+    background: #eee!important;
+    border-color: #ddd!important;
+    color: #999!important;
 }
 
 .btn:active {
@@ -124,6 +124,10 @@ h3 {
 .container {
     margin: 0 auto;
     max-width: 1000px;
+}
+
+.container.with-nav {
+    margin-top: 70px;
 }
 
 .pt-2 {
@@ -191,6 +195,7 @@ h3 {
 }
 
 .card {
+    overflow: hidden;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 10px;
@@ -219,6 +224,14 @@ h3 {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 0;
+    transition: .22s all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list-item:hover {
+    background: #eee;
 }
 
 .alert {
@@ -281,6 +294,9 @@ h3 {
 }
 
 
+
+
+
 .loader {
     font-size: 10px;
     margin: 50px auto;
@@ -301,7 +317,6 @@ h3 {
     -ms-transform: translateZ(0);
     transform: translateZ(0);
 }
-
 .loader:before {
     width: 50%;
     height: 50%;
@@ -312,7 +327,6 @@ h3 {
     left: 0;
     content: '';
 }
-
 .loader:after {
     background: #2c3e50;
     width: 75%;
@@ -326,7 +340,6 @@ h3 {
     bottom: 0;
     right: 0;
 }
-
 @-webkit-keyframes load3 {
     0% {
         -webkit-transform: rotate(0deg);
@@ -337,7 +350,6 @@ h3 {
         transform: rotate(360deg);
     }
 }
-
 @keyframes load3 {
     0% {
         -webkit-transform: rotate(0deg);
@@ -347,4 +359,38 @@ h3 {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
+}
+
+.navbar {
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaecef;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-right: 2rem;
+}
+
+.navbar-menu li a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.navbar-menu li a:hover, .navbar-menu li a.active {
+    border-bottom: 2px solid #3eaf7c;
 }
