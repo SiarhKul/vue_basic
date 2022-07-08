@@ -3,6 +3,76 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/0094e3a4-22f7-466e-a045-254b32d2d114.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/aa97cd32-f386-4ad0-88b8-dc4b2128dfaa.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/f6477f9d-cb1e-41ae-b8e0-d8d5f8dd2063.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/.eslintrc.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/config-overrides.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/src/components/Form/Form.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/src/components/FormControls/Sortable/Sortable.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/src/containers/AssessmentLeftMenu/links/TreeLink.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/src/main/containers/Main.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/src/scenes/Assessment/containers/Assessment.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/src/scenes/Assessment/services/store.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/tsconfig.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../Exadel/eas/eas-fe/yarn.lock">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/index.html">
           <value>
             <set />
@@ -83,7 +153,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/UserList.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/router/index.ts">
           <value>
             <set />
           </value>
@@ -93,7 +173,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/use/fetch.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/use/users.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/views/Home.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/views/Users.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/vuex.d.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/vue.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="localhost:3000/static/js/main.chunk.js">
           <value>
             <set />
           </value>
