@@ -2,10 +2,10 @@
   <div class='card'>
     <h2>Название задачи</h2>
     <p><strong>Статус</strong>:
-      <AppStatus :type="'done'" />
+      <AppStatus :type="task.status" />
     </p>
-    <p><strong>Дэдлайн</strong>: {{ new Date().toLocaleDateString() }}</p>
-    <p><strong>Описание</strong>: Описание задачи</p>
+    <p><strong>Дэдлайн</strong>: {{task.dateTask}}</p>
+    <p><strong>Описание</strong>: {{task.descriptionTask}}</p>
     <div>
       <button class='btn'>Взять в работу</button>
       <button class='btn primary'>Завершить</button>
@@ -20,14 +20,19 @@
 <script>
 import AppStatus from '../components/AppStatus';
 import { useStore } from 'vuex';
-
-const mainStore = useStore();
+import { useRoute } from 'vue-router';
 
 export default {
   components: { AppStatus },
+
   setup() {
+    const route = useRoute();
+    const mainStore = useStore();
+    const { id } = route.params;
+    const task = mainStore.state.todos.find(todo => todo.id == id);
+
     return {
-      // amountTasks: mainStore.getters.getAmountTasks
+      task,
     };
   },
 
