@@ -1,13 +1,18 @@
 <template>
-  <div class='container'>
-    <div class='card'>
-      <h2>Работа с базой данных</h2>
-    </div>
+  <the-navbar></the-navbar>
+  <div class="container with-nav">
+    <router-view />
   </div>
 </template>
 
 <script>
-export default {};
+import TheNavbar from './components/TheNavbar'
+
+export default {
+  components: {
+    TheNavbar
+  }
+}
 </script>
 
 <style>

@@ -3,6 +3,16 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/index.html">
           <value>
             <set />
@@ -83,7 +93,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/AppStatus.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/routes/routes.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/store/mainStore.js">
           <value>
             <set />
           </value>
@@ -93,7 +118,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/views/New.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/views/Task.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/views/Tasks.vue">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/vue.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="chrome-extension://amnfbgkhpdmeeobndndgebhdklioljbc/content/sef/observer.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="chrome-extension://lmhkpmbekcpmknklioeibfkpmmfibljd/content.bundle.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="vm:489">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="webpack-internal:///./node_modules/cache-loader/dist/cjs.js">
           <value>
             <set />
           </value>
